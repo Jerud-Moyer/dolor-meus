@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script
+  type="text/javascript" 
+  src="{{url_for('static', filename='js/stream.js')}}"
+></script>
+{% endblock %}
+
+{% block content %}
+
+<label for="number">
+  How many paragraphs do you want?
+</label>
+<select
+  name="number"
+  id="number"
+>
+  {% for num in context.nums %}
+  <option value="{{num}}">
+    {{num}}
+  </option>
+  {% endfor %}
+</select>
+
+<label for="subject">
+  pick a subject!
+</label>
+<select
+  name="subject"
+  id="subject"
+>
+{% for option in context.subject_options %}
+<option value="{{option.value}}">
+  {{option.label}}
+</option>
+{% endfor %}
+</select>
+<p id="view_box"></p>
+
+<button id="request_button">
+  get some
+</button>
+<!-- <p>{{context.special_message}}</p> -->
+
+{% endblock %}
