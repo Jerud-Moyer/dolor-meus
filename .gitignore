@@ -1,5 +1,7 @@
 .dolor-meus/
 
+.env
+
 *.pyc
 __pycache__/
 
