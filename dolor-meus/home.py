@@ -2,7 +2,7 @@ from flask import (Flask, render_template, Blueprint)
 
 bp = Blueprint("home", __name__)
 
-@bp.route('/why')
+@bp.route('/')
 def home():
 
   subject_options = [
@@ -15,6 +15,10 @@ def home():
       'value': 'electric guitars'
     },
     {
+      'label': 'metal',
+      'value': 'heavy metal music'
+    },
+    {
       'label': 'cats',
       'value': 'big cats'
     },
@@ -22,6 +26,10 @@ def home():
       'label': 'wolves',
       'value': 'wolves'
     },
+    {
+      'label': 'punk rock',
+      'value': 'punk rock'
+    }
   ]
 
   nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
