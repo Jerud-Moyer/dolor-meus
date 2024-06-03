@@ -16,6 +16,8 @@ def stream_response(response):
 def ai():
 
   subject = request.json['subject']
+  print('SUBJECT =====================> ' + subject)
+  print('SYSMESS =====> ' + SYSTEM_MESSAGE)
 
   response = client.chat.completions.create(
     model="gpt-4o",
