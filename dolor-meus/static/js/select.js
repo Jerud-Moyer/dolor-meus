@@ -1,6 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
   const selects = document.querySelectorAll('.control-group select')
-  console.log('this thing on?')
 
   const manageLabelClass = (element, remove = false) => {
     if(!remove) element.classList.add('up')
@@ -8,7 +7,6 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 
   selects.forEach(select => {
-    console.log(select)
     const label = document.querySelector(`label[for=${select.name}]`)
 
     select.addEventListener('focus', () => {
