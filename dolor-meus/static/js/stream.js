@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        subject: `${number} ${subject}`
+        subject: `${number} paragraphs on ${subject}`
       })
     })
 
