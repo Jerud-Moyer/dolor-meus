@@ -25,9 +25,9 @@
         id="number"
       >
         <option value="" disabled selected></option>
-        {% for num in context.nums %}
-        <option value="{{num}}">
-          {{num}}
+        {% for num in context.nums_options %}
+        <option value="{{num.value}}">
+          {{num.label}}
         </option>
         {% endfor %}
       </select>
