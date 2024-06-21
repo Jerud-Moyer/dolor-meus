@@ -33,6 +33,18 @@ def home():
     {
       'label': 'sharks',
       'value': 'sharks'
+    },
+    {
+      'label': 'dinosaurs',
+      'value': 'dinosaurs'
+    },
+    {
+      'label': 'swords',
+      'value': 'swords'
+    },
+    {
+      'label': 'spaceships';
+      'value': 'spaceships from popular fiction'
     }
   ]
 
