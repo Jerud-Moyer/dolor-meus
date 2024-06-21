@@ -29,6 +29,10 @@ def home():
     {
       'label': 'punk rock',
       'value': 'punk rock'
+    },
+    {
+      'label': 'sharks',
+      'value': 'sharks'
     }
   ]
 
