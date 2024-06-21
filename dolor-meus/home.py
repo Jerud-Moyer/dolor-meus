@@ -43,8 +43,12 @@ def home():
       'value': 'swords'
     },
     {
-      'label': 'spaceships';
+      'label': 'spaceships',
       'value': 'spaceships from popular fiction'
+    },
+    {
+      'label': 'pizza',
+      'value': 'pizza'
     }
   ]
 
