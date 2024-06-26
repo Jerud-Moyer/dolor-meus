@@ -7,48 +7,52 @@ def home():
 
   subject_options = [
     {
-      'label': 'motorcycles',
+      'label': 'Motorcycles',
       'value': 'motorcycles'
     },
     {
-      'label': 'guitars',
+      'label': 'Guitars',
       'value': 'electric guitars'
     },
     {
-      'label': 'metal',
+      'label': 'Metal',
       'value': 'heavy metal music'
     },
     {
-      'label': 'cats',
+      'label': 'Cats',
       'value': 'big cats'
     },
     {
-      'label': 'wolves',
+      'label': 'Wolves',
       'value': 'wolves'
     },
     {
-      'label': 'punk rock',
+      'label': 'Punk rock',
       'value': 'punk rock'
     },
     {
-      'label': 'sharks',
+      'label': 'Sharks',
       'value': 'sharks'
     },
     {
-      'label': 'dinosaurs',
+      'label': 'Dinosaurs',
       'value': 'dinosaurs'
     },
     {
-      'label': 'swords',
+      'label': 'Swords',
       'value': 'swords'
     },
     {
-      'label': 'spaceships',
+      'label': 'Spaceships',
       'value': 'spaceships from popular fiction'
     },
     {
-      'label': 'pizza',
+      'label': 'Pizza',
       'value': 'pizza'
+    },
+    {
+      'label': 'Norse Mythology',
+      'value': 'norse mythology'
     }
   ]
 
