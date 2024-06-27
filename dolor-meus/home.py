@@ -53,6 +53,10 @@ def home():
     {
       'label': 'Norse Mythology',
       'value': 'norse mythology'
+    },
+    {
+      'label': 'Ancient Rome',
+      'value': 'ancient Rome'
     }
   ]
 
