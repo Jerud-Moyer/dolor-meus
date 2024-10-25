@@ -8,6 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
   let subject = ''
 
   const getLorem = async() => {
+    // should wrap in try-catch for errors    
     const response = await fetch('/ai', {
       method: 'POST',
       headers: {
@@ -17,6 +18,9 @@ window.addEventListener('DOMContentLoaded', () => {
         subject: `${number} paragraphs on ${subject}`
       })
     })
+
+    numSelect.value = ''
+    subjectSelect.value = ''
 
     const reader = response.body.getReader()
     viewBox.innerHTML = ''
