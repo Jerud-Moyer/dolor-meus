@@ -1,1 +1,1 @@
-gunicorn -w 4 'dolor-meus:home()'
+web: gunicorn dolor-meus:home
