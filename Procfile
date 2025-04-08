@@ -1,1 +1,1 @@
-web: gunicorn dolor-meus:app
+web: gunicorn 'dolor-meus:create_app()'
