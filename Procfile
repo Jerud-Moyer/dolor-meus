@@ -1,1 +1,1 @@
-web: gunicorn dolor-meus:home
+web: gunicorn dolor-meus:app
