@@ -1,1 +1,1 @@
-web: gunicorn "dolor-meus:create_app()"
+web: gunicorn -w 4 'dolor-meus:create_app()'
