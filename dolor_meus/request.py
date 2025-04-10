@@ -3,7 +3,7 @@ from flask import (Blueprint, render_template, stream_template, Response, reques
 import os
 
 bp = Blueprint('request', __name__)
-  print('WUT')
+print('WUT')
 # client = OpenAI()
 # SYSTEM_MESSAGE = os.getenv('SYSTEM_MESSAGE')
 

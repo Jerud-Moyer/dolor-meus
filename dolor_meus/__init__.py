@@ -2,8 +2,8 @@ import os
 
 from flask import Flask
 
-from . import home
-from . import request
+from dolor_meus import home
+from dolor_meus import request
 
 def create_app(test_config=None):
   app = Flask(__name__, instance_relative_config=True)
@@ -27,8 +27,5 @@ def create_app(test_config=None):
   except OSError:
       pass
 
-  if __name__ == "__main__":
-        port = int(os.environ.get("PORT", 5000))
-        app.run(debug=False, host='0.0.0.0', port=port)
 
   return app
