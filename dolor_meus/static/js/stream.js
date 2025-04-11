@@ -33,6 +33,8 @@ window.addEventListener('DOMContentLoaded', () => {
       viewBox.innerHTML += freshText.replaceAll('\n', '</br>')
       isDone = done
     }
+    const copyButton = document.getElementById('copy_button')
+    copyButton.disabled = false
 
   }
 
