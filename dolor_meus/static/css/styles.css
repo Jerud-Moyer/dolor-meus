@@ -52,6 +52,28 @@ select, button {
   }
 }
 
+button#copy_button {
+  margin-top: 22px;
+  padding: 10px 20px;
+  position: relative;
+
+  #copy_tooltip {
+    visibility: hidden;
+    position: absolute;
+    top: -55px;
+    left: 0;
+    background-color: #000;
+    color: var(--platinum);
+    padding: 4px;
+    border-radius: 6px;
+
+    &.visible {
+      visibility: visible;
+    }
+    transition: visibility .2s ease;
+  }
+}
+
 select {
   height: 40px;
   line-height: 40px;
@@ -135,7 +157,7 @@ select {
   }
 
   .results-box {
-    height: calc(100vh - 450px);
+    height: calc(100vh - 475px);
     width: 90%;
     border: solid var(--pacific_cyan) 2px;
     background: var(--platinum);
